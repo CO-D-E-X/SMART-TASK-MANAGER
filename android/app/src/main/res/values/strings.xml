@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TASK MANAGER</string>
+    <string name="title_activity_main">TASK MANAGER</string>
+    <string name="package_name">com.codex.taskmanager</string>
+    <string name="custom_url_scheme">com.codex.taskmanager</string>
+</resources>

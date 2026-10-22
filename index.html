@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- 100% Local & Secure Content Security Policy: connects to nothing, zero external requests -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; font-src 'self' data:; media-src 'none'; object-src 'none'; frame-src 'none';" />
+    <meta name="description" content="TASK MANAGER — 100% Local, Dynamic Urgency Prioritization, Zero Server, 100% Private & Secure Task Management." />
+    <meta name="theme-color" content="#090a0d" />
+    <link rel="icon" type="image/png" href="/task_icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>TASK MANAGER</title>
+  </head>
+  <body class="bg-[#090a0d] text-slate-100 antialiased selection:bg-indigo-600 selection:text-white min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

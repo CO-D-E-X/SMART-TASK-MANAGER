@@ -1,0 +1,17 @@
+{
+  "short_name": "TASK MANAGER",
+  "name": "TASK MANAGER - Smart Dynamic Prioritizer",
+  "icons": [
+    {
+      "src": "/task_icon.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
